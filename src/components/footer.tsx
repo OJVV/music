@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-          <img src={logo} alt="Pulsar Logo" className="h-14 w-auto" />
+          <img src={logo} alt="Pulsar Logo" className="h-32 w-auto" />
             <div className="font-bold text-white text-2xl tracking-wider mb-4">
               PULSAR<span className="text-primary">SOUND</span>
             </div>

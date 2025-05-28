@@ -30,7 +30,7 @@ const PulsarNavbar: React.FC = () => {
         />
         <NavbarBrand>
           <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="Pulsar Logo" className="h-14 w-auto" />
+          <img src={logo} alt="Pulsar Logo" className="h-32 w-auto" />
             <div className="font-bold text-white text-xl tracking-wider">
               PULSAR<span className="text-primary">SOUND</span>
             </div>
