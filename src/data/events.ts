@@ -23,17 +23,17 @@ export const events: Event[] = [
     image: party1,
     price: "L.300",
     lineup: ["DJ Elektra", "Marcos López", "Sofia Reyes", "Techno Collective"],
-    flyer: "https://img.heroui.chat/image/ai?w=800&h=1200&u=techno-party-flyer-1"
+    flyer: party1
   },
   {
     id: "2",
     title: "DEEP HOUSE SESSIONS",
     date: "15 Julio, 2024 - 21:00",
-    location: "Terraza Urbana, San Pedro Sula",
+    location: "Lago de Yojoa",
     description: "Una noche dedicada al deep house con los mejores exponentes del género. Disfruta de buena música, cócteles y una vista increíble de la ciudad.",
     image:  party2,
     price: "L.250",
-    lineup: ["Carlos Mendoza", "House Brothers", "DJ Luna", "Deep Collective"]
+    lineup: ["Pulsar & Friends"]
   },
   {
     id: "3",
