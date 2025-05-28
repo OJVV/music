@@ -3,6 +3,7 @@ import { Card, CardBody, Button } from "@heroui/react";
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
+
 interface EventCardProps {
   id: string;
   title: string;

@@ -1,3 +1,6 @@
+import party4 from "../assets/flyerjpg/kenee.jpg";
+import party5 from "../assets/flyerjpg/nahum.jpg";
+import party6 from "../assets/flyerjpg/galeria1.jpg";
 export interface GalleryItem {
   id: string;
   image: string;
@@ -9,21 +12,21 @@ export interface GalleryItem {
 export const galleryItems: GalleryItem[] = [
   {
     id: "1",
-    image: "https://img.heroui.chat/image/ai?w=800&h=800&u=techno-party-1",
+    image: party6,
     caption: "PULSAR NIGHTS VOL. 11",
     event: "PULSAR NIGHTS",
     date: "Marzo 2024"
   },
   {
     id: "2",
-    image: "https://img.heroui.chat/image/ai?w=800&h=800&u=techno-party-2",
+    image: party5,
     caption: "DJ Set en Club Elektra",
     event: "TECHNO UNDERGROUND",
     date: "Febrero 2024"
   },
   {
     id: "3",
-    image: "https://img.heroui.chat/image/ai?w=800&h=800&u=techno-party-3",
+    image:party4,
     caption: "Público disfrutando en DEEP HOUSE SESSIONS",
     event: "DEEP HOUSE SESSIONS",
     date: "Enero 2024"
