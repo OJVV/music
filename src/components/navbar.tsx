@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link as HeroLink } from "@heroui/react";
 import { motion } from 'framer-motion';
 import { Icon } from '@iconify/react';
+import logo from '../assets/pulsar.png';
 
 const PulsarNavbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -28,7 +29,8 @@ const PulsarNavbar: React.FC = () => {
           className="sm:hidden text-white"
         />
         <NavbarBrand>
-          <Link to="/" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-3">
+          <img src={logo} alt="Pulsar Logo" className="h-8 w-auto" />
             <div className="font-bold text-white text-xl tracking-wider">
               PULSAR<span className="text-primary">SOUND</span>
             </div>

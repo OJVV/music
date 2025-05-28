@@ -74,7 +74,7 @@ const AboutPage: React.FC = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-semibold mb-1">Carlos Mendoza</h3>
+                <h3 className="text-xl font-semibold mb-1">Nahum Ortiz</h3>
                 <p className="text-primary mb-3">Fundador & DJ</p>
                 <p className="text-gray-400 text-sm mb-4">
                   Fundador de PULSARSOUND y DJ con más de 10 años de experiencia en la escena electrónica.
@@ -89,81 +89,7 @@ const AboutPage: React.FC = () => {
                 </div>
               </CardBody>
             </Card>
-            
-            <Card className="bg-content2 border border-white/10">
-              <CardBody className="p-6 text-center">
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                  <img 
-                    src="https://img.heroui.chat/image/avatar?w=300&h=300&u=team-2" 
-                    alt="Team Member" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-semibold mb-1">Sofia Reyes</h3>
-                <p className="text-primary mb-3">Directora de Eventos</p>
-                <p className="text-gray-400 text-sm mb-4">
-                  Encargada de la organización y logística de todos los eventos de PULSARSOUND.
-                </p>
-                <div className="flex justify-center space-x-3">
-                  <a href="#" className="text-gray-400 hover:text-primary">
-                    <Icon icon="logos:instagram-icon" className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="text-gray-400 hover:text-primary">
-                    <Icon icon="logos:linkedin-icon" className="w-5 h-5" />
-                  </a>
-                </div>
-              </CardBody>
-            </Card>
-            
-            <Card className="bg-content2 border border-white/10">
-              <CardBody className="p-6 text-center">
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                  <img 
-                    src="https://img.heroui.chat/image/avatar?w=300&h=300&u=team-3" 
-                    alt="Team Member" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-semibold mb-1">Marcos López</h3>
-                <p className="text-primary mb-3">Director Creativo</p>
-                <p className="text-gray-400 text-sm mb-4">
-                  Responsable del diseño visual y la identidad de marca de PULSARSOUND.
-                </p>
-                <div className="flex justify-center space-x-3">
-                  <a href="#" className="text-gray-400 hover:text-primary">
-                    <Icon icon="logos:instagram-icon" className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="text-gray-400 hover:text-primary">
-                    <Icon icon="logos:behance" className="w-5 h-5" />
-                  </a>
-                </div>
-              </CardBody>
-            </Card>
-            
-            <Card className="bg-content2 border border-white/10">
-              <CardBody className="p-6 text-center">
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                  <img 
-                    src="https://img.heroui.chat/image/avatar?w=300&h=300&u=team-4" 
-                    alt="Team Member" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-semibold mb-1">Laura Castillo</h3>
-                <p className="text-primary mb-3">Marketing & PR</p>
-                <p className="text-gray-400 text-sm mb-4">
-                  Encargada de la promoción y relaciones públicas de PULSARSOUND.
-                </p>
-                <div className="flex justify-center space-x-3">
-                  <a href="#" className="text-gray-400 hover:text-primary">
-                    <Icon icon="logos:instagram-icon" className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="text-gray-400 hover:text-primary">
-                    <Icon icon="logos:twitter" className="w-5 h-5" />
-                  </a>
-                </div>
-              </CardBody>
-            </Card>
+  
           </div>
         </div>
       </section>
@@ -257,9 +183,7 @@ const AboutPage: React.FC = () => {
                     <Icon icon="lucide:clock" className="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-medium">Horario</h4>
-                    <p className="text-gray-400">Lunes a Viernes: 9:00 AM - 6:00 PM</p>
-                  </div>
+                 
                 </li>
               </ul>
               

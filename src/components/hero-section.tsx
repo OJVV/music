@@ -3,6 +3,7 @@ import { Button } from "@heroui/react";
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
+
 const HeroSection: React.FC = () => {
   return (
     <div className="relative h-[90vh] overflow-hidden">
@@ -21,7 +22,7 @@ const HeroSection: React.FC = () => {
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">PULSAR<span className="text-primary">SOUND</span></h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-            El sello de música electrónica líder en San Pedro Sula, Honduras
+          Un clásico de la escena electrónica en San Pedro Sula, Honduras 
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

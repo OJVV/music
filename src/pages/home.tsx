@@ -29,7 +29,7 @@ const HomePage: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">PULSAR<span className="text-primary">SOUND</span></h2>
             <p className="text-lg text-gray-300 mb-8">
               Somos un sello de música electrónica con base en San Pedro Sula, Honduras. 
-              Desde 2015 hemos estado organizando los mejores eventos de música electrónica, 
+              Desde 2008 hemos estado organizando los mejores eventos de música electrónica, 
               promoviendo artistas locales y trayendo talentos internacionales a nuestra ciudad.
             </p>
             <Button
