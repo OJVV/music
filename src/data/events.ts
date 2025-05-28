@@ -1,6 +1,6 @@
-import party1 from "../assets/flyerjpg/flyer.jpg";
-import party2 from "../assets/flyerjpg/flyer1.jpg";
-import party3 from "../assets/flyerjpg/sakro.jpg";
+import party1 from"../assets/flyer.jpg";
+import party2 from "../assets/flyer1.jpg";
+import party3 from "../assets/sakro.jpg";
 export interface Event {
   id: string;
   title: string;

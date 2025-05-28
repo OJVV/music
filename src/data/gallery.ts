@@ -1,6 +1,6 @@
-import party4 from "../assets/flyerjpg/kenee.jpg";
-import party5 from "../assets/flyerjpg/nahum.jpg";
-import party6 from "../assets/flyerjpg/galeria1.jpg";
+import party4 from "../assets/kenee.jpg";
+import party5 from "../assets/nahum.jpg";
+import party6 from "../assets/galeria1.jpg";
 export interface GalleryItem {
   id: string;
   image: string;
