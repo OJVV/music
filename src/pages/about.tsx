@@ -182,7 +182,7 @@ const AboutPage: React.FC = () => {
                   <div className="bg-primary/20 p-2 rounded-md">
                     <Icon icon="lucide:clock" className="w-5 h-5 text-primary" />
                   </div>
-                  <div>
+              
                  
                 </li>
               </ul>
