@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
+import logo from '../assets/pulsar.png';
 
 const Footer: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
+          <img src={logo} alt="Pulsar Logo" className="h-14 w-auto" />
             <div className="font-bold text-white text-2xl tracking-wider mb-4">
               PULSAR<span className="text-primary">SOUND</span>
             </div>
