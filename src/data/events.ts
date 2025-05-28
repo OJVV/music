@@ -1,6 +1,3 @@
-import party1 from"../assets/flyer.jpg";
-import party2 from "../assets/flyer1.jpg";
-import party3 from "../assets/sakro.jpg";
 export interface Event {
   id: string;
   title: string;
@@ -20,20 +17,20 @@ export const events: Event[] = [
     date: "24 Junio, 2024 - 22:00",
     location: "Club Elektra, San Pedro Sula",
     description: "Regresa PULSAR NIGHTS con su volumen 12, presentando los mejores DJs de la escena local y nacional. Una noche de techno, house y música electrónica para los verdaderos amantes del género.",
-    image: party1,
+    image: "https://img.heroui.chat/image/ai?w=800&h=1200&u=techno-party-flyer-1",
     price: "L.300",
     lineup: ["DJ Elektra", "Marcos López", "Sofia Reyes", "Techno Collective"],
-    flyer: party1
+    flyer: "https://img.heroui.chat/image/ai?w=800&h=1200&u=techno-party-flyer-1"
   },
   {
     id: "2",
     title: "DEEP HOUSE SESSIONS",
     date: "15 Julio, 2024 - 21:00",
-    location: "Lago de Yojoa",
+    location: "Terraza Urbana, San Pedro Sula",
     description: "Una noche dedicada al deep house con los mejores exponentes del género. Disfruta de buena música, cócteles y una vista increíble de la ciudad.",
-    image:  party2,
+    image: "https://img.heroui.chat/image/ai?w=800&h=1200&u=deep-house-party-flyer",
     price: "L.250",
-    lineup: ["Pulsar & Friends"]
+    lineup: ["Carlos Mendoza", "House Brothers", "DJ Luna", "Deep Collective"]
   },
   {
     id: "3",
@@ -41,7 +38,7 @@ export const events: Event[] = [
     date: "5 Agosto, 2024 - 23:00",
     location: "Warehouse 33, San Pedro Sula",
     description: "El evento más underground de la ciudad. Techno puro y duro en un espacio industrial único. Solo para verdaderos amantes del género.",
-    image:  party3,
+    image: "https://img.heroui.chat/image/ai?w=800&h=1200&u=techno-underground-flyer",
     price: "L.350",
     lineup: ["Techno Collective", "Dark Matter", "Pulse Machine", "Analog System"]
   },
