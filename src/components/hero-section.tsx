@@ -2,13 +2,14 @@ import React from 'react';
 import { Button } from "@heroui/react";
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import PulsarBanner from '../assets/pulsarbanner.jpg';
 
 
 const HeroSection: React.FC = () => {
   return (
     <div className="relative h-[90vh] overflow-hidden">
       <img 
-        src="https://img.heroui.chat/image/ai?w=1920&h=1080&u=pulsarsound-party" 
+        src={PulsarBanner}
         alt="PULSARSOUND Event" 
         className="absolute inset-0 w-full h-full object-cover"
       />
